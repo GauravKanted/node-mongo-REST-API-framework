@@ -1,0 +1,36 @@
+{
+  "name": "node-mongo-app",
+  "version": "1.0.0",
+  "description": "Simple framework for Nodejs-MongoDB REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauravKanted/node-mongo-REST-API-framework.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongoose",
+    "mongodb",
+    "jwt"
+  ],
+  "author": "Gaurav Kanted",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GauravKanted/node-mongo-REST-API-framework/issues"
+  },
+  "homepage": "https://github.com/GauravKanted/node-mongo-REST-API-framework#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
