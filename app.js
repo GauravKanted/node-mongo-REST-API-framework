@@ -16,6 +16,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const config = require('./Config/AppConfig')
+const mongoDbObj = require('./Config/Database').db
 
 const app = express()
 
@@ -23,6 +24,6 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.listen(config.Port, () => {
-    console.log(`Nodejs Server Running on port ${config.Port}`)
+app.listen(config.PORT, () => {
+    console.log(`Nodejs Server Running on port ${config.PORT}`)
 })

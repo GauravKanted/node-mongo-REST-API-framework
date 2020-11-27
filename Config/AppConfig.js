@@ -10,5 +10,6 @@
 require('dotenv').config({ path: './Config/.env' })
 
 module.exports = {
-    Port: process.env.PORT,
+    PORT: process.env.PORT,
+    MONGODB_CONNECTION: process.env.MONGODBHOST
 }
